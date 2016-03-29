@@ -21,7 +21,3 @@ class SignpostingRewriteHandler(RewriteHandler):
         super(SignpostingRewriteHandler, self).__init__(config)
 
         self.templates = config.get("templates", {})
-
-    @staticmethod
-    def get(key):
-        return None
